@@ -3,7 +3,7 @@
 sybinit.release_directory: /opt/sybase
 sybinit.product: sqlsrv
 sqlsrv.server_name: SYB_INTEGRATION
-sqlsrv.sa_password: XXX
+sqlsrv.sa_password: password
 sqlsrv.new_config: yes
 sqlsrv.do_add_server: yes
 sqlsrv.network_protocol_list: tcp
@@ -18,7 +18,7 @@ sqlsrv.master_device_size: 384
 sqlsrv.master_database_size: 300
 sqlsrv.errorlog: /opt/sybase/ASE-16_0/install/SYB_INTEGRATION.log
 sqlsrv.sort_order:	nocase_iso_1
-sqlsrv.default_characterset: iso_1	
+sqlsrv.default_characterset: iso_1
 sqlsrv.default_language:	us_english
 sqlsrv.do_upgrade: no
 sqlsrv.sybsystemprocs_device_physical_name: /opt/sybase/data/sysprocs.dat

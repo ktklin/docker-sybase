@@ -3,7 +3,7 @@
 source /opt/sybase/SYBASE.sh
 ${SYBASE}/${SYBASE_ASE}/install/RUN_SYB_INTEGRATION
 
-isql -Usa -SSYB_INTEGRATION -PXXX <<INPUT
+isql -Usa -SSYB_INTEGRATION -Ppassword <<INPUT
 disk init name="data01", physname="/opt/sybase/data/data01.dat", size="1G"
 go
 disk init name="log01", physname="/opt/sybase/data/log01.dat",  size="200M"
