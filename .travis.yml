@@ -1,0 +1,14 @@
+sudo: required
+services:
+  - docker
+
+script:
+  - echo "Build local Sybase ASE image"
+  - docker build -t sybase .
+  - docker images
+  - docker run --name mobuxer-sybase -d -p 5000:5000 sybase
+  - echo "Wait for Sybase ASE to start up"
+  - docker ps -a
+  - docker logs mobuxer-sybase
+  - docker exec -it mobuxer-sybase ps -ef
+  - docker stop mobuxer-sybase

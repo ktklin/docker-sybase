@@ -1,0 +1,8 @@
+SYB_INTEGRATION
+	master tcp ether 0.0.0.0 5000
+	query tcp ether 127.0.0.1 5000
+
+SYB_INTEGRATION_BS
+	master tcp ether 0.0.0.0 5001
+	query tcp ether 127.0.0.1 5001
+

@@ -1,0 +1,11 @@
+sqlloc.release_directory: /opt/sybase
+sqlloc.server_name: SYB_INTEGRATION
+sqlloc.sa_login: sa
+sqlloc.sa_password: XXX
+sqlloc.default_language: us_english
+sqlloc.default_characterset: iso_1
+sqlloc.sort_order: nocase_iso_1
+sqlloc.language_install_list: us_english
+sqlloc.language_remove_list: USE_DEFAULT
+sqlloc.characterset_install_list: iso_1,iso15,roman9,utf8
+sqlloc.characterset_remove_list: USE_DEFAULT
