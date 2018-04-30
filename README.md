@@ -1,5 +1,6 @@
-docker-sybase
+docker-sybase / Sybase ASE Docker Image
 =============
+[![Build Status](https://travis-ci.org/ktklin/docker-sybase.svg?branch=master)](https://travis-ci.org/ktklin/docker-sybase)
 
 ### Building  Sybase ASE on Docker.
 Using this docker file you will be able to build a Docker Image incl. the Sybase ASE Express edition
